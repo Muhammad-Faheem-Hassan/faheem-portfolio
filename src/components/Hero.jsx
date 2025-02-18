@@ -15,10 +15,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Faheem Hassan</span>
+            Hi, I'm <span className="text-[#915EFF]">Faheem</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I do
+          I'm Expert in
             <Typewriter
               options={{
                 strings: [
@@ -27,18 +27,17 @@ const Hero = () => {
                   "Express.js",
                   "MongoDB",
                   "React",
-                  "Redux", // If you use Redux
-                  "Angular", // If you use Angular (less common in MERN, more in MEAN)
+                  "Redux",
+                  "Angular",
                   "HTML",
                   "CSS",
                   "REST APIs",
-                  "GraphQL", // If you use GraphQL
-                  "TypeScript", // If you use TypeScript
+                  "GraphQL",
+                  "TypeScript",
                   "Git",
-                  "Testing (Jest, Mocha, etc.)", // Add specific testing frameworks
-                  "Deployment (AWS, Azure, Heroku, etc.)", // Add specific platforms
-                  "Agile Methodologies", // Soft skill
-                  "Problem Solving", // Soft skill
+                  "Deployment (AWS, Azure, Heroku)",
+                  "Agile Methodologies",
+                  "Problem Solving",
                 ],
                 autoStart: true,
                 loop: true,
